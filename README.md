@@ -2,8 +2,20 @@
 
 This is an exercise number 3 from exam conducted after 1st month of Scala Academy at [Adform](https://github.com/adform).
 
-Exercise rules & description: [link](https://www.reddit.com/r/dailyprogrammer/comments/o4uyzl/20210621_challenge_395_easy_nonogram_row/)
+### Task description
+A binary array is an array consisting of only the values `0` and `1`. Given a binary array of any length, return an array of positive integers that represent the lengths of the sets of consecutive 1's in the input array, in order from left to right.
+```
+nonogramrow([]) => []
+nonogramrow([0,0,0,0,0]) => []
+nonogramrow([1,1,1,1,1]) => [5]
+nonogramrow([0,1,1,1,1,1,0,1,1,1,1]) => [5,4]
+nonogramrow([1,1,0,1,0,0,1,1,1,0,0]) => [2,1,3]
+nonogramrow([0,0,0,0,1,1,0,0,1,0,1,1,1]) => [2,1,3]
+nonogramrow([1,0,1,0,1,0,1,0,1,0,1,0,1,0,1]) => [1,1,1,1,1,1,1,1]
+```
+Description adapted from: [source](https://www.reddit.com/r/dailyprogrammer/comments/o4uyzl/20210621_challenge_395_easy_nonogram_row/)
 
+---
 ### Table of contents
 ##### Scala Coding Problems
 1. [Letter value sum](https://github.com/rafalkac02/adform-scala-academy-exam0-exercise-1)
